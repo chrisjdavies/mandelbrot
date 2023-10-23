@@ -1,0 +1,10 @@
+[package]
+name = "mandelbrot"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gfx_demo = { git = "https://github.com/chrisjdavies/gfx_demo.git", tag = "v0.3.0" }
+num = "0.4"
